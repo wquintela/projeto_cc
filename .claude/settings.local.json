@@ -23,6 +23,7 @@
       "mcp__github__create_pull_request",
       "Bash(git stash *)",
       "Bash(git pull *)",
+      "mcp__github__merge_pull_request",
       "Bash(git merge *)",
       "Bash(git commit *)"
     ]
