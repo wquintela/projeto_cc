@@ -1,4 +1,4 @@
-# projeto-01
+# Pet Feliz
 
 Boilerplate/starter de aplicação web construído com Next.js (App Router), React e TypeScript. Serve como ponto de partida para novos projetos, já configurado com as convenções de arquitetura e código do time — ainda não possui features de negócio implementadas.
 

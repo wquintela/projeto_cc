@@ -20,7 +20,11 @@
       "Bash(git push *)",
       "Bash(git checkout *)",
       "Bash(git commit -m ' *)",
-      "Bash(git merge *)"
+      "mcp__github__create_pull_request",
+      "Bash(git stash *)",
+      "Bash(git pull *)",
+      "Bash(git merge *)",
+      "Bash(git commit *)"
     ]
   },
   "disabledMcpjsonServers": [
