@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm --turbopack)",
+      "Bash(cd *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(powershell -Command \"Get-Process | Where-Object {\\\\$_.ProcessName -like '*node*' -or \\\\$_.ProcessName -like '*npm*'} | Select-Object Id, ProcessName\" 2>&1)",
+      "Read(//e/projetos_claude/**)",
+      "Read(//e//**)",
+      "Bash(mkdir -p \"/e/projetos_claude/projeto-01\")",
+      "Bash(cp -r .claude .env.example .gitignore CLAUDE.md README.md actions app components eslint.config.mjs lib next-env.d.ts next.config.ts package.json postcss.config.mjs public tsconfig.json types \"/e/projetos_claude/projeto-01/\")",
+      "Bash(claude mcp *)",
+      "PowerShell(claude mcp *)",
+      "PowerShell(claude *)",
+      "PowerShell([Environment]::GetEnvironmentVariable\\(\"GITHUB_PAT\",\"User\"\\) -ne $null)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "context7"
+  ]
+}
