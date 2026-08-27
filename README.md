@@ -1,4 +1,4 @@
-# projeto-01
+# Pet Feliz
 
 Aplicação web construída com Next.js (App Router), React e TypeScript.
 
